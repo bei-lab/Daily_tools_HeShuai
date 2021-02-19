@@ -26,7 +26,7 @@ library(GSVA)
 library(future)
 library(parallel)
 
-### the annotation metadata of 84363 cells of AHCA1.0 could be used as demo file. For the further use please contact HeShuai ! 
+### the annotation metadata of 84363 cells of AHCA1.0 could be used as demo file. For further use please contact HeShuai! 
 meta.dat <- read.table(file = "clipboard",
                        sep = "\t",
                        row.names = NULL,
